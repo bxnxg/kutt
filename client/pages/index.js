@@ -33,10 +33,10 @@ class Homepage extends Component {
     return (
       <BodyWrapper>
         <Shortener />
-        {needToLogin}
+        {/*needToLogin*/}
         {table}
-        <Features />
-        <Extensions />
+        {/*<Features />
+        <Extensions />*/}
         <Footer />
       </BodyWrapper>
     );

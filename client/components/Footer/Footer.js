@@ -53,7 +53,7 @@ class Footer extends Component {
           >
             GitHub
           </a>
-          {' | '}
+          {/*{' | '}
           <a href="/terms" title="Terms of Service">
             Terms of Service
           </a>
@@ -68,7 +68,7 @@ class Footer extends Component {
                 Contact us
               </a>
             </Fragment>
-          )}
+          )}*/}
           .
         </Text>
       </Wrapper>

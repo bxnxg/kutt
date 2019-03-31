@@ -116,9 +116,9 @@ class Login extends Component {
             <TextInput type="email" name="email" id="email" autoFocus />
             <LoginInputLabel htmlFor="password">Password (min chars: 8)</LoginInputLabel>
             <TextInput type="password" name="password" id="password" />
-            <ForgetPassLink href="/reset-password" title="Forget password" onClick={this.goTo}>
+            {/*<ForgetPassLink href="/reset-password" title="Forget password" onClick={this.goTo}>
               Forgot your password?
-            </ForgetPassLink>
+            </ForgetPassLink>*/}
             <ButtonWrapper>
               <Button
                 icon={this.props.loading.login ? 'loader' : 'login'}
@@ -127,14 +127,14 @@ class Login extends Component {
               >
                 Log in
               </Button>
-              <Button
+              {/*<Button
                 icon={this.props.loading.signup ? 'loader' : 'signup'}
                 color="purple"
                 onClick={this.signupHandler}
                 big
               >
                 Sign up
-              </Button>
+              </Button>*/}
             </ButtonWrapper>
             <Error type="auth" left={0} />
           </LoginBox>

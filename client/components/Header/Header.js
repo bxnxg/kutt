@@ -36,11 +36,11 @@ const LeftMenuWrapper = styled.div`
 
 const Header = props => (
   <Wrapper>
-    <LeftMenuWrapper>
+    {/*<LeftMenuWrapper>
       <HeaderLogo showPageLoading={props.showPageLoading} />
       <HeaderLeftMenu />
     </LeftMenuWrapper>
-    <HeaderRightMenu showPageLoading={props.showPageLoading} />
+    <HeaderRightMenu showPageLoading={props.showPageLoading} />*/}
   </Wrapper>
 );
 
