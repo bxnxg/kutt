@@ -29,7 +29,7 @@ const HeaderLeftMenu = props => {
   };
   return (
     <List>
-      <HeaderMenuItem>
+      {/*<HeaderMenuItem>
         <a
           href="//github.com/thedevs-network/kutt"
           target="_blank"
@@ -43,7 +43,7 @@ const HeaderLeftMenu = props => {
         <a href="/report" title="Report abuse" onClick={goTo}>
           Report
         </a>
-      </HeaderMenuItem>
+      </HeaderMenuItem>*/}
     </List>
   );
 };

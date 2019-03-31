@@ -39,9 +39,8 @@ const HeaderLogo = props => {
 
   return (
     <LogoImage>
-      <a href="/" title="Homepage" onClick={goTo}>
-        <img src="/images/logo.svg" alt="" />
-        Bxn.li
+      <a href="/" title="Bxn.li" onClick={goTo}>
+        <img src="/images/logo.svg" alt="Bxn.li" />
       </a>
     </LogoImage>
   );
