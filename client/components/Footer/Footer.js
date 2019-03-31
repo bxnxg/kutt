@@ -41,18 +41,27 @@ class Footer extends Component {
       <Wrapper isAuthenticated={this.props.isAuthenticated}>
         {!this.props.isAuthenticated && <ReCaptcha />}
         <Text>
+          <a
+              href="https://www.bxnxg.com"
+              title="BXNXG Owner website"
+              target="_blank" // eslint-disable-line react/jsx-no-target-blank
+          >
+            BXNXG
+          </a>
+          {' | '}
+          <a
+              href="https://github.com/thedevs-network/kutt"
+              title="GitHub"
+              target="_blank" // eslint-disable-line react/jsx-no-target-blank
+          >
+            GitHub
+          </a>
+          {' | '}
           Made with love by{' '}
           <a href="//thedevs.network/" title="The Devs">
             The Devs
           </a>
-          .{' | '}
-          <a
-            href="https://github.com/thedevs-network/kutt"
-            title="GitHub"
-            target="_blank" // eslint-disable-line react/jsx-no-target-blank
-          >
-            GitHub
-          </a>
+          .
           {/*{' | '}
           <a href="/terms" title="Terms of Service">
             Terms of Service

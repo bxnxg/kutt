@@ -53,7 +53,7 @@ class BannedPage extends Component {
             Link has been banned and removed because of <span>malware or scam</span>.
           </Title>
           <Subtitle>
-            If you noticed a malware/scam link shortened by Kutt,{' '}
+            If you noticed a malware/scam link shortened by Bxn.li,{' '}
             <Link href="/report" to="report">
               <a href="/report" title="Send report">
                 send us a report

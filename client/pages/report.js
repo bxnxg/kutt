@@ -105,7 +105,7 @@ class ReportPage extends Component {
           <Form onSubmit={this.onSubmit}>
             <TextInput
               type="text"
-              placeholder="kutt.it/example"
+              placeholder="bxn.li/example"
               value={url}
               onChange={this.onChange}
               height={44}
