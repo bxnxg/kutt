@@ -26,7 +26,7 @@ const ButtonWrapper = styled.div`
     flex: 1 1 0;
   }
   & > *:last-child {
-    margin-left: 32px;
+    /*margin-left: 32px;*/
   }
   @media only screen and (max-width: 768px) {
     & > *:last-child {
