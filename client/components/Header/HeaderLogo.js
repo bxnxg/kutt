@@ -16,15 +16,26 @@ const LogoImage = styled.div`
     transition: border-color 0.2s ease-out;
   }
 
+  img {
+    width: auto;
+    height: 54px;
+    margin-right: 11px;
+  }
+
   @media only screen and (max-width: 488px) {
     a {
       font-size: 18px;
     }
   }
-
-  img {
-    width: 18px;
-    margin-right: 11px;
+  @media only screen and (max-width: 768px) {
+    img {
+      height: 40px;
+    }
+  }
+  @media only screen and (max-width: 448px) {
+    img {
+      height: 32px;
+    }
   }
 `;
 
