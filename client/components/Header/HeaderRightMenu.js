@@ -57,8 +57,8 @@ const HeaderMenu = props => {
   );
   return (
     <List>
-        {/*<HeaderMenuItem>
-        <ReportLink href="/report" title="Report" onClick={goTo}>
+      <HeaderMenuItem>
+        {/*<ReportLink href="/report" title="Report" onClick={goTo}>
           Report
         </ReportLink>*/}
       </HeaderMenuItem>
